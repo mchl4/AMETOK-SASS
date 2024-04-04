@@ -1,0 +1,19 @@
+:root{
+    --headersec : #212121;
+    --accent: #fcb222;
+    --primary:#fefefe;
+    --footersec: #171717;
+    --headertext: #767676;
+
+}
+
+$clr-headersec: var(--headersec);
+$clr-footersec: var(--footersec);
+$clr-accent: var(--accent);
+$clr-primary: var(--primary);
+$clr-headertext: var(--headertext);
+
+$sm: "42rem";
+$md: "92rem";
+$lg: "144rem";
+$xl: "180rem";
