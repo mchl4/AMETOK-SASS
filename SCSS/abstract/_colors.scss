@@ -4,8 +4,12 @@
     --primary:#fefefe;
     --footersec: #171717;
     --headertext: #767676;
+    --light: #fff;
+    --dark: #000;
 
 }
+$clr-light: var(--light);
+$clr-dark: var(--dark);
 
 $clr-headersec: var(--headersec);
 $clr-footersec: var(--footersec);
