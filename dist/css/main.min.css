@@ -407,6 +407,7 @@ button {
   align-items: flex-end;
 }
 
+<<<<<<< HEAD
 .cta {
   padding: 5rem;
   background-image: url("../../photo/section-bg-4.jpg");
@@ -511,6 +512,8 @@ button {
     transform: rotate(1turn);
   }
 }
+=======
+>>>>>>> arbilo
 @media (max-width: 42rem) {
   .top {
     display: none;
