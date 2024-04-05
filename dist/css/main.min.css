@@ -460,20 +460,6 @@ button {
   }
 }
 
-.tns-controls {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 2rem 0;
-}
-
-button {
-  background: transparent;
-  border: none;
-  font-style: 3rem;
-  color: var(--footersec);
-}
-
 /* loader pio */
 .loader {
   position: fixed;
