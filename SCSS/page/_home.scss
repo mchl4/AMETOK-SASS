@@ -4,3 +4,97 @@
 @use "../vendor/" as*;
 @use "../layout/" as*;
 
+.choose {
+    position: relative;
+    padding: 40rem 0 12rem 0;
+    @include mediaQuery2 {
+      padding: 40rem 3rem 12rem 3rem;
+    }
+    @include mediaQuery {
+      padding: 160rem 2rem 12rem 2rem;
+    }
+    &__title {
+      @include grid(2);
+      @include mediaQuery2 {
+        @include grid(1);
+      }
+      @include mediaQuery {
+        @include grid(1);
+      }
+    }
+    p {
+      color: $clr-dgray;
+      font-size: 2rem;
+      @include mediaQuery {
+        margin-top: 1.5rem;
+      }
+    }
+    h4 {
+      color: $clr-dgray;
+      font-size: 1.5rem;
+      letter-spacing: 0.2rem;
+    }
+    h2 {
+      font-size: 5rem;
+      color: $clr-dark;
+      @include mediaQuery {
+        font-size: 4rem;
+      }
+    }
+    span {
+      background: $clr-accent;
+      width: 3rem;
+      height: 2px;
+      display: block;
+      margin-bottom: 1rem;
+    }
+    &__boxes {
+      @include grid(4);
+      margin-top: 4rem;
+      @include mediaQuery2 {
+        @include grid(2, 3rem);
+        margin-top: 6rem;
+      }
+      @include mediaQuery {
+        @include grid(1, 3rem);
+      }
+    }
+    &__box:last-child {
+      border-right: none;
+    }
+    &__box {
+      border-right: 1px solid $clr-dgray;
+      @include mediaQuery2 {
+        border-right: none;
+      }
+      @include mediaQuery {
+        border-right: none;
+      }
+      h3 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+        color: $clr-dark;
+        font-weight: 800;
+      }
+      p {
+        text-align: center;
+        font-size: 2rem;
+      }
+    }
+    &__icon {
+      text-align: center;
+      i {
+        background-color: $clr-accent;
+        color: $clr-light;
+        font-size: 5rem;
+        padding: 2rem 2.5rem;
+      }
+    }
+    &__content {
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      background: $clr-light;
+    }
+  }
