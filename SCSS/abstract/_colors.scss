@@ -1,10 +1,12 @@
-:root{
-    --headersec : #212121;
-    --accent: #fcb222;
-    --primary:#fefefe;
-    --footersec: #171717;
-    --headertext: #767676;
-
+:root {
+  --headersec: #212121;
+  --accent: #fcb222;
+  --primary: #fefefe;
+  --footersec: #171717;
+  --headertext: #767676;
+  --light: #ffffff;
+  --dark: #232323;
+  --gray: #b7b7b7;
 }
 
 $clr-headersec: var(--headersec);
@@ -12,8 +14,11 @@ $clr-footersec: var(--footersec);
 $clr-accent: var(--accent);
 $clr-primary: var(--primary);
 $clr-headertext: var(--headertext);
+$clr-light: var(--light);
+$clr-dark: var(--dark);
+$clr-gray: var(--gray);
 
 $sm: "42rem";
-$md: "92rem";
+$md: "76.8rem";
 $lg: "144rem";
 $xl: "180rem";
