@@ -11,6 +11,11 @@
         @content;
     }
 }
+@mixin mediaQuery2($width:$md) {
+    @media (max-width:$width) {
+        @content;
+    }
+}
 
 @mixin grid($cols: 1, $gap: 1rem){
     display: grid;
